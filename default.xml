@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="lineage"
+          fetch="https://github.com/LineageOS/" />
+
+  <default revision="lineage-22.2"
+           remote="lineage"
+           sync-j="4" />
+
+  <project path="build" name="android_build" />
+</manifest>
